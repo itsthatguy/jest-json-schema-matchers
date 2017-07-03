@@ -3,8 +3,8 @@
 
 ### Example usage
 
-```
-# __tests__/data/data.json
+```javascript
+// __tests__/data/data.json
 
 {
   "base": {
@@ -15,7 +15,7 @@
 }
 
 
-# __tests__/schemas/base.json
+// __tests__/schemas/base.json
 
 {
   "type": "object",
@@ -35,7 +35,7 @@
   }
 }
 
-# __tests__/schemas/descriptions/referenced.json
+// __tests__/schemas/descriptions/referenced.json
 
 {
   "type": "object",
@@ -48,7 +48,7 @@
   }
 }
 
-# __tests__/index.spec.js
+// __tests__/index.spec.js
 
 const matchers = require('jest-json-schema-matchers');
 expect.extend(matchers({
