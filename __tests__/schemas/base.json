@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "required": ["base"],
+
+  "properties": {
+    "base": {
+      "type": "object",
+      "required": ["referenced"],
+      
+      "properties": {
+        "referenced": {
+          "$ref": "descriptions/referenced.json"
+        }
+      }
+    }
+  }
+}
