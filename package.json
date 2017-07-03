@@ -4,15 +4,25 @@
   "description": "Matchers for validating json schema against json data (with working $refs)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/jest"
   },
   "author": "Kevin Altman <kevin@itsthatguy.com>",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "jest-matcher-utils": "^20.0.3"
   },
   "dependencies": {
     "pkg-dir": "^2.0.0",
     "z-schema": "^3.18.2"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/__tests__/",
+      "<rootDir>/node_modules/"
+    ],
+    "testRegex": "/__tests__/.*spec\\.js$",
+    "verbose": true
   }
 }

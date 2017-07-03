@@ -32,9 +32,9 @@ module.exports = function (options = {}) {
 
       return {
         actual: received,
-        message,
+        message: message,
         name: 'toMatchSchema',
-        pass,
+        pass: pass,
       };
     },
   }
