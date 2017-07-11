@@ -52,8 +52,7 @@
 
 const matchers = require('jest-json-schema-matchers');
 expect.extend(matchers({
-  schemaDir: '__tests__/schemas/',
-  refDir: '__tests__/schemas/'
+  schemaRoot: '__tests__/schemas/',
 }));
 
 describe('jest-json-schema-matchers', () => {
