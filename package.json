@@ -1,14 +1,14 @@
 {
   "name": "jest-json-schema-matchers",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Matchers for validating json schema against json data (with working $refs)",
   "main": "index.js",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/itsthatguy/jest-json-schema-matchers.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsthatguy/jest-json-schema-matchers.git"
   },
-  "bugs" : {
-    "url" : "https://github.com/itsthatguy/jest-json-schema-matchers/issues"
+  "bugs": {
+    "url": "https://github.com/itsthatguy/jest-json-schema-matchers/issues"
   },
   "scripts": {
     "test": "node_modules/.bin/jest"
