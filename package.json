@@ -1,6 +1,6 @@
 {
   "name": "jest-json-schema-matchers",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Matchers for validating json schema against json data (with working $refs)",
   "main": "index.js",
   "repository": {
