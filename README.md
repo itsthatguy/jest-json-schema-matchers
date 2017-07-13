@@ -1,5 +1,11 @@
 # jest-json-schema-matchers
 
+### Install
+
+```
+npm install jest-json-schema-matchers
+```
+
 
 ### Example usage
 
