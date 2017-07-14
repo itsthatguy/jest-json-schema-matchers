@@ -1,4 +1,4 @@
-# jest-json-schema-matchers [![CircleCI](https://circleci.com/gh/itsthatguy/jest-json-schema-matchers/tree/master.svg?style=svg)](https://circleci.com/gh/itsthatguy/jest-json-schema-matchers/tree/master)
+# jest-json-schema-matchers [![CircleCI](https://circleci.com/gh/itsthatguy/jest-json-schema-matchers/tree/master.svg?style=svg)](https://circleci.com/gh/itsthatguy/jest-json-schema-matchers/tree/master)[![npm version](https://badge.fury.io/js/jest-json-schema-matchers.svg)](https://badge.fury.io/js/jest-json-schema-matchers)
 
 ### Install
 
